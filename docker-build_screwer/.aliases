@@ -1,0 +1,12 @@
+alias ls='ls -F --color=auto'
+
+alias grep='grep --color=auto'
+
+alias mv='nocorrect mv -iv'
+alias cp='nocorrect cp -iRv'
+alias rm='nocorrect rm -iv'
+
+alias mkdir='nocorrect mkdir -v'
+alias rmdir='nocorrect rmdir -v'
+
+alias qupd='aptitude update && aptitude -y upgrade'
